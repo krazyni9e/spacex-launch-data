@@ -44,12 +44,14 @@ body {
   z-index: 9999;
 }
 .app-wrap {
-  min-height: 100vh;
+  min-height:100vh;
+     position:relative;
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.6)
   );
+
 }
 
 header {
@@ -708,6 +710,9 @@ main {
 
 /*Footer*/
 footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
 
   background-color: #ffffff;
   animation: glow 3s ease-in-out infinite alternate;
